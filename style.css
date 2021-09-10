@@ -30,6 +30,8 @@ body {
   font-family: 'Poppins', 'Lucida Grande', sans-serif;
   font-size: 1.6rem;
   text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 .site {
@@ -285,11 +287,51 @@ form a:visited {
 /* ===============================================================
 MEDIA QUERIES
  =================================================================*/
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  .site {
+    max-width: 100rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .promo {
+    flex-basis: 40%;
+    margin: 0 0 0 3rem;
+  }
+
+  form {
+    max-width: 70rem;
+    padding-bottom: 0;
+    flex-basis: 40%;
+  }
+
+  h2 {
+    padding: 2.8rem 3rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.29px;
+  }
+
+  h2 span {
+    font-weight: 700;
+  }
+
+  .conditions {
+    font-size: 1.15rem;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1200px) {
   body,
   html {
-    /* font-family: 'Poppins', 'Lucida Grande', sans-serif;
-    font-size: 1.6rem; */
     text-align: left;
     display: grid;
     height: 100%;
