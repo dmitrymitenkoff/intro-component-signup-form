@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Code: [GitHub](https://github.com/dmitrymitenkoff/intro-component-signup-form)
+- Live Site URL: [Live Project](https://intro-component-signup-form-beige.vercel.app)
 
 ## My process
 
